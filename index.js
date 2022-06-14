@@ -24,6 +24,7 @@ app.delete('/del_user', function (req, res) {
 })
 
 
+
 // This responds a GET request for the /list_user page.
 app.get('/list_user', function (req, res) {
    console.log("Got a GET request for /list_user");
